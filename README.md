@@ -1,3 +1,15 @@
+### Step 1
+### Installing JSON Server
+JSON Server is available as a NPM package. The installation can be done by using the Node.js package manager:
+$ npm install -g json-server
+By adding the -g option we make sure that the package is installed globally on your system.
+
+### Running The Server
+Let’s start JSON server by executing the following command:
+$ json-server --watch db.json
+
+
+### Step 2
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,11 +81,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Installing JSON Server
-JSON Server is available as a NPM package. The installation can be done by using the Node.js package manager:
-$ npm install -g json-server
-By adding the -g option we make sure that the package is installed globally on your system.
 
-### Running The Server
-Let’s start JSON server by executing the following command:
-$ json-server --watch db.json
