@@ -1,0 +1,51 @@
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.list-wrapper {
+  width: 100%;
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.book { 
+  margin-bottom: 30px;
+  height: 300px;
+  padding: 25px 15px;
+  color: white;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.book > h1 { 
+  font-size: 1.7em;
+}
+
+.book > h5 { 
+  margin-top: auto;
+}
+
+.book.single {
+  cursor: default;
+  width: 260px;
+  padding: 10px 25px;
+  margin-right: 50px;
+}
+
+.details-wrapper {
+  margin-top: 10px;
+}

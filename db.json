@@ -1,0 +1,27 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter and philospher stone",
+      "year": "2000",
+      "description": "first book",
+      "author":"J K Rowling"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and chamber of secrets",
+      "year": "2001",
+      "description": "second book",
+      
+      "author":"J K Rowling"
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter and prisoner of azkaban",
+      "year": "2002",
+      "description": "third book",
+      
+      "author":"J K Rowling"
+    }
+  ]
+}
